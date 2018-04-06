@@ -7,4 +7,15 @@
  * @license http://www.nwslab.com/ NWS Lab product
  */
 
-echo 'hello world';
+class Test{
+    public $test = 'test';
+}
+
+class TestTwo{
+    public $test = 'test';
+}
+
+$obj = new Test();
+$obj1 = new TestTwo();
+if($obj == $obj1)
+    echo 'ok';
